@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21B586E153E1A8000511389 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = E21B586D153E1A8000511389 /* button1.png */; };
+		E27590E5153D972E001EA9C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27590E4153D972E001EA9C7 /* UIKit.framework */; };
+		E27590E7153D972E001EA9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27590E6153D972E001EA9C7 /* Foundation.framework */; };
+		E27590F1153D972E001EA9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E27590F0153D972E001EA9C7 /* main.m */; };
+		E27590F5153D972E001EA9C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27590F4153D972E001EA9C7 /* AppDelegate.m */; };
+		E27590F8153D972E001EA9C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27590F7153D972E001EA9C7 /* ViewController.m */; };
+		E2759105153D9A9B001EA9C7 /* badumtssh.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2759104153D9A9B001EA9C7 /* badumtssh.wav */; };
+		E2759107153D9B16001EA9C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2759106153D9B16001EA9C7 /* AVFoundation.framework */; };
+		E279E74C153DD2F50096F919 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = E279E74B153DD2F50096F919 /* button.png */; };
+		E2B7B9EE153DE29F00313B58 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B7B9ED153DE29F00313B58 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E21B586D153E1A8000511389 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		E27590E0153D972E001EA9C7 /* Ba dum tsssh!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ba dum tsssh!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27590E4153D972E001EA9C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E27590E6153D972E001EA9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E27590EC153D972E001EA9C7 /* Ba dum tsssh!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ba dum tsssh!-Info.plist"; sourceTree = "<group>"; };
+		E27590F0153D972E001EA9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Ba dum tsssh!/main.m"; sourceTree = "<group>"; };
+		E27590F2153D972E001EA9C7 /* Ba dum tsssh!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ba dum tsssh!-Prefix.pch"; sourceTree = "<group>"; };
+		E27590F3153D972E001EA9C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Ba dum tsssh!/AppDelegate.h"; sourceTree = "<group>"; };
+		E27590F4153D972E001EA9C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Ba dum tsssh!/AppDelegate.m"; sourceTree = "<group>"; };
+		E27590F6153D972E001EA9C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Ba dum tsssh!/ViewController.h"; sourceTree = "<group>"; };
+		E27590F7153D972E001EA9C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Ba dum tsssh!/ViewController.m"; sourceTree = "<group>"; };
+		E2759104153D9A9B001EA9C7 /* badumtssh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = badumtssh.wav; sourceTree = "<group>"; };
+		E2759106153D9B16001EA9C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E279E74B153DD2F50096F919 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		E2B7B9ED153DE29F00313B58 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E2D2048E153DB497008A7B29 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27590DD153D972E001EA9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2759107153D9B16001EA9C7 /* AVFoundation.framework in Frameworks */,
+				E27590E5153D972E001EA9C7 /* UIKit.framework in Frameworks */,
+				E27590E7153D972E001EA9C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21D3853153DD7CE00B82D52 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E27590F0153D972E001EA9C7 /* main.m */,
+				E27590F3153D972E001EA9C7 /* AppDelegate.h */,
+				E27590F4153D972E001EA9C7 /* AppDelegate.m */,
+				E27590F6153D972E001EA9C7 /* ViewController.h */,
+				E27590F7153D972E001EA9C7 /* ViewController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E27590D5153D972E001EA9C7 = {
+			isa = PBXGroup;
+			children = (
+				E21D3853153DD7CE00B82D52 /* Source */,
+				E27590EB153D972E001EA9C7 /* Supporting Files */,
+				E27590E3153D972E001EA9C7 /* Frameworks */,
+				E27590E1153D972E001EA9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E27590E1153D972E001EA9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27590E0153D972E001EA9C7 /* Ba dum tsssh!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27590E3153D972E001EA9C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D2048E153DB497008A7B29 /* AudioToolbox.framework */,
+				E2759106153D9B16001EA9C7 /* AVFoundation.framework */,
+				E27590E4153D972E001EA9C7 /* UIKit.framework */,
+				E27590E6153D972E001EA9C7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27590EB153D972E001EA9C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2B7B9ED153DE29F00313B58 /* Icon@2x.png */,
+				E279E74B153DD2F50096F919 /* button.png */,
+				E21B586D153E1A8000511389 /* button1.png */,
+				E2759104153D9A9B001EA9C7 /* badumtssh.wav */,
+				E27590EC153D972E001EA9C7 /* Ba dum tsssh!-Info.plist */,
+				E27590F2153D972E001EA9C7 /* Ba dum tsssh!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "Ba dum tsssh!";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27590DF153D972E001EA9C7 /* Ba dum tsssh! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2759101153D972E001EA9C7 /* Build configuration list for PBXNativeTarget "Ba dum tsssh!" */;
+			buildPhases = (
+				E27590DC153D972E001EA9C7 /* Sources */,
+				E27590DD153D972E001EA9C7 /* Frameworks */,
+				E27590DE153D972E001EA9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ba dum tsssh!";
+			productName = "Ba dum tsssh!";
+			productReference = E27590E0153D972E001EA9C7 /* Ba dum tsssh!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27590D7153D972E001EA9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = FutureMind;
+			};
+			buildConfigurationList = E27590DA153D972E001EA9C7 /* Build configuration list for PBXProject "Ba dum tsssh!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E27590D5153D972E001EA9C7;
+			productRefGroup = E27590E1153D972E001EA9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27590DF153D972E001EA9C7 /* Ba dum tsssh! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27590DE153D972E001EA9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2759105153D9A9B001EA9C7 /* badumtssh.wav in Resources */,
+				E279E74C153DD2F50096F919 /* button.png in Resources */,
+				E2B7B9EE153DE29F00313B58 /* Icon@2x.png in Resources */,
+				E21B586E153E1A8000511389 /* button1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27590DC153D972E001EA9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27590F1153D972E001EA9C7 /* main.m in Sources */,
+				E27590F5153D972E001EA9C7 /* AppDelegate.m in Sources */,
+				E27590F8153D972E001EA9C7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E27590FF153D972E001EA9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2759100153D972E001EA9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2759102153D972E001EA9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ba dum tsssh!/Ba dum tsssh!-Prefix.pch";
+				INFOPLIST_FILE = "Ba dum tsssh!/Ba dum tsssh!-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2759103153D972E001EA9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ba dum tsssh!/Ba dum tsssh!-Prefix.pch";
+				INFOPLIST_FILE = "Ba dum tsssh!/Ba dum tsssh!-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27590DA153D972E001EA9C7 /* Build configuration list for PBXProject "Ba dum tsssh!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27590FF153D972E001EA9C7 /* Debug */,
+				E2759100153D972E001EA9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2759101153D972E001EA9C7 /* Build configuration list for PBXNativeTarget "Ba dum tsssh!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2759102153D972E001EA9C7 /* Debug */,
+				E2759103153D972E001EA9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27590D7153D972E001EA9C7 /* Project object */;
+}
